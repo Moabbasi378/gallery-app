@@ -1,0 +1,10 @@
+.row {
+  display: block;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  display: flex;
+  margin: 10px;
+}

@@ -27,6 +27,40 @@
 .App-link {
   color: #61dafb;
 }
+.input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.tittle {
+  color: rgba(0, 0, 0, 0.753);
+}
+
+.button {
+  width: 90px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  font-size: larger;
+  cursor: pointer;
+  transition: 1s;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+
+html {
+  background: url("./images/image.jpg") no-repeat center center fixed;
+}
+
+.massage {
+  color: rgba(0, 0, 0, 0.534);
+}
 
 @keyframes App-logo-spin {
   from {
